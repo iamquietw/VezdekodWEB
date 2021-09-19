@@ -1,0 +1,112 @@
+@font-face {
+    src: url("/materials/SF-Regular.ttf");
+    font-family: "SF Regular";
+}
+@font-face {
+    src: url("/materials/SF-Semibold.ttf");
+    font-family: "SF Semibold";
+}
+body {
+    font-family: "SF Regular", serif;
+    background: #efefef;
+}
+.hide {
+    display: none;
+}
+.lang-wrapper {
+    padding-left: 235px;
+    padding-top: 15px;
+}
+.lang-selector {
+    border: 1px solid white;
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 6px 12px rgba(0,0,0,0.22);
+}
+input {
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 6px 12px rgba(0,0,0,0.22);
+    transition: 0.2s;
+    outline: none;
+}
+textarea {
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 6px 12px rgba(0,0,0,0.22);
+    resize: none;
+    transition: 0.2s;
+    outline: none;
+}
+#desktop {
+    width: 500px;
+    height: 430px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -215px 0 0 -250px;
+    border-radius: 15px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.name-input {
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+    justify-items: center;
+    justify-content: center;
+}
+.email-input {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 15px;
+}
+.company-input {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 15px;
+}
+.city-input {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 15px;
+}
+.message-input {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 15px;
+}
+.send-button {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 15px;
+}
+.send {
+    background: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 6px 12px rgba(0,0,0,0.22);
+    height: 35px;
+    width: 200px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.send:hover {
+    box-shadow: 4px 4px 0 0 rgb(255, 43, 34);
+    transition-duration: 0.2s;
+}
+input:hover {
+    box-shadow: 4px 4px 0 0 rgb(255, 43, 34);
+    transition-duration: 0.2s;
+}
+textarea:hover {
+    box-shadow: 4px 4px 0 0 rgb(255, 43, 34);
+    transition-duration: 0.2s;
+}

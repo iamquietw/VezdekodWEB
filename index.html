@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<!-- Решения могут быть не самыми лучшими, но это первое, что приходило в голову, а времени оставалось уже очень мало. =( -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <title>Yumi. Регистрация</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="visible" id="desktop">
+        <div class="lang-wrapper">
+            <label>
+                <select class="lang-selector">
+                    <option>en</option>
+                    <option>ru</option>
+                </select>
+            </label>
+        </div>
+        <div class="name-input">
+            <div id="first-name">
+                First name<span style="color: #f22b22">*</span>
+                <label>
+                    <input id="name" style="width: 100px">
+                </label>
+            </div>
+            <div style="display: inline-block" id="last-name">
+                Last Name<span style="color: #f22b22">*</span>
+                <label>
+                    <input id="last_name" style="width: 100px">
+                </label>
+            </div>
+        </div>
+        <div class="email-input">
+            <div>
+                <div style="display: inline">
+                    Email<span style="color: #f22b22">*</span>
+                </div>
+                <label>
+                    <input id="mail" style="width: 390px">
+                </label>
+            </div>
+        </div>
+        <div class="company-input">
+            <div>
+                <div style="display: inline">
+                    Company<span style="color: #f22b22">*</span>
+                </div>
+                <label>
+                    <input id="company" style="width: 360px">
+                </label>
+            </div>
+        </div>
+        <div class="city-input">
+            <div>
+                <div style="display: inline">
+                    City<span style="color: #f22b22">*</span>
+                </div>
+                <label>
+                    <input id="city" style="width: 400px">
+                </label>
+            </div>
+        </div>
+        <div class="message-input">
+            <div>
+                <div style="display: inline">
+                    Message<span style="color: #f22b22">*</span>
+                </div>
+                <label>
+                    <textarea id="message" style="width: 365px; height: 150px"></textarea>
+                </label>
+            </div>
+        </div>
+        <div class="send-button">
+            <div>
+                <button class="send">Send</button>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-wrapper">
+        <div class="hide" id="mobile">
+            <div class="--lang-wrapper">
+                <div id="en" class="--lang-option">
+                    EN
+                </div>
+                <div id="ru" class="--lang-option">
+                    RU
+                </div>
+                <div id="ar" class="--lang-option">
+                    AR
+                </div>
+            </div>
+            <div class="mobileInputs">
+                <div class="firstName">
+                    First name<span style="color: #f22b22">*</span>
+                    <label>
+                        <input id="mName" class="mobileInput" style="width: 100%">
+                    </label>
+                </div>
+                <div class="secondName">
+                    Second name<span style="color: #f22b22">*</span>
+                    <label>
+                        <input id="mLastName" class="mobileInput" style="width: 100%">
+                    </label>
+                </div>
+                <div class="emailInput">
+                    Email name<span style="color: #f22b22">*</span>
+                    <label>
+                        <input id="mMail" class="mobileInput" style="width: 100%">
+                    </label>
+                </div>
+                <div class="companyInput">
+                    Company name
+                    <label>
+                        <input id="mCompany" class="mobileInput" style="width: 100%">
+                    </label>
+                </div>
+                <div class="cityInput">
+                    City<span style="color: #f22b22">*</span>
+                    <label>
+                        <input id="mCity" class="mobileInput" style="width: 100%">
+                    </label>
+                </div>
+                <div class="messageInput">
+                    Message<span style="color: #f22b22">*</span>
+                    <label>
+                        <textarea id="mMsg" class="mobileTextarea" style="width: 100%"></textarea>
+                    </label>
+                </div>
+                <div class="sendButton">
+                    <div>
+                        <button onclick="send()" id="mSend">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

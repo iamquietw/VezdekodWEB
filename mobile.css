@@ -1,0 +1,59 @@
+.mobile-wrapper {
+    display: grid;
+}
+#mobile {
+    width: 100%;
+    height: 100vh;
+}
+.--lang-wrapper {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.--lang-option {
+    height: 120px;
+    width: 120px;
+    background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+    border-radius: 15px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    font-family: "SF Semibold", serif;
+    font-size: xxx-large;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    color: white
+}
+.mobileInputs {
+    display: grid;
+    width: 98%;
+    font-size: xxx-large;
+    justify-items: center;
+    justify-content: center;
+    grid-row-gap: 25px;
+}
+.mobileInput {
+    height: 120px;
+    border-radius: 50px;
+    font-size: xx-large;
+    outline: none;
+}
+.mobileTextarea {
+    height: 120px;
+    border-radius: 20px;
+    font-size: xx-large;
+    outline: none;
+}
+#mSend {
+    height: 120px;
+    width: 240px;
+    border-radius: 15px;
+    border: 1px solid white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    outline: none;
+    font-size: xx-large;
+}
